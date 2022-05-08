@@ -1,0 +1,231 @@
+@font-face {
+  font-family:MontserratReg;
+  src:url("fonts/montserrat/Montserrat-Regular.ttf");
+}
+@font-face{
+  font-family:JakItalic;
+  src:url("fonts/jaksansitalic.otf");
+}
+@font-face{
+  font-family:JakBook;
+  src:url("fonts/jaksansbook.otf");
+}
+@font-face{
+  font-family:JakBold;
+  src:url("fonts/jaksansbold.off");
+}
+body {
+  background-color:whitesmoke;
+  margin-left:50px;
+  margin-right:50px;
+}
+h1 {
+  font-family:JakBold;
+}
+ul.nav {
+  list-style-type:none;
+  margin-bottom:10px;
+}
+h1, ul.nav {
+  display:inline;
+}
+li.nav {
+  float:right;
+  padding:10px;
+}
+li.nav, a.navigate {
+  display:block;
+  font-family:JakItalic;
+  color:black;
+  text-decoration:none;
+  text-align:center;
+  padding-left:5px;
+  padding-right:5px;
+  transition:0.3s;
+}
+a.navigate:hover {
+  border:1px solid black;
+  padding-left:5px;
+  padding-right:5px;
+  border-radius:10px;
+  background-color:black;
+  color:white;
+}
+.first-section {
+  margin-top:50px;
+}
+p.first-p {
+  background-color:inherit;
+  font-family:JakBold;
+  font-size:200%;
+  margin-top:80px;
+  margin-bottom:1%;
+}
+
+img.gens-potrait {
+  width:90%;
+  height:40%;
+  border-radius:10px;
+  transition:0.5s;
+}
+img.gens-potrait:hover {
+  width:140%;
+  height:90%;
+}
+.left-fsection {
+  padding-left:15px;
+  width:70%;
+  float:left;
+}
+.email-button {
+  margin-bottom:70px;
+  border:none;
+  background-color:rgb(121, 97, 255);
+  border-radius:5px;
+  padding:5px 15px 5px 15px;
+  text-align:center;
+  font-family:JakItalic;
+  color:white;
+}
+a {
+  text-decoration:none;
+}
+.linkedin-link, .instagram-link, .facebook-link {
+  font-family:MontserratReg;
+  font-weight:bold;
+  padding:5px;
+  color:rgb(121, 97, 255);
+  transition:0.3s;
+}
+.linkedin-link:hover, .instagram-link:hover, .facebook-link:hover {
+  background-color:rgb(121,97,255);
+  color:white;
+  border-radius:10px;
+}
+.right-fsection {
+  width:20%;
+  float:left;
+}
+header::after, .first-section::after, .second-section::after, .first-fourth-section::after, .second-fourth-section::after, .third-fourth-section::after {
+  content:"";
+  display:table;
+  clear:both;
+}
+header {
+  margin-top:15px;
+}
+.second-section {
+  margin-top:30px;
+}
+.left-secsection {
+  width:40%;
+  float:left;
+}
+.right-secsection {
+  width:30%;
+  float:right;
+}
+.my-background {
+  font-family:MontserratReg;
+}
+.skill-lists {
+  font-family:JakBook;
+}
+.third-section {
+  background-color:#46467a;
+  font-weight:bold;
+  color:white;
+  margin-top:30px;
+  padding-top:100px;
+  padding-left:40px;
+  padding-bottom:100px;
+}
+.quotes {
+  font-family:JakItalic;
+  font-size:200%;
+  margin-right:60%;
+}
+.fourth-section {
+  margin-top:50px;
+}
+.first-fourth-section {
+  margin-top:25px;
+}
+h2 {
+  font-family:JakItalic;
+}
+.wts-header {
+  padding-left:20px;
+  width:60%;
+  float:left;
+}
+.wts-content {
+  float:left;
+  font-family:MontserratReg;
+  margin-left:20px;
+  width:60%;
+}
+.wts-image {
+  float:left;
+  width:20%;
+  height:20%;
+  border-radius:15px;
+  margin-bottom:3%;
+}
+.form {
+  float:left;
+}
+.form-image {
+  float:right;
+  width:35%;
+  height:55%;
+  border-radius:20px;
+}
+.form-title {
+  font-size:300%;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.form-name, .form-email {
+  display:inherit;
+  font-size:100%;
+  font-family:JakItalic;
+}
+.form-input {
+  outline:none;
+  padding:10px;
+  font-family:MontserratReg;
+  color:white;
+  background-color:#e6e6e6;
+  border-radius:20px;
+  border:none;
+}
+.form-submit, .form-reset {
+  margin:5px;
+  margin-top:13px;
+}
+.form-submit, .form-reset {
+  padding:5px 18px 5px 18px;
+  background-color:transparent;
+  border-radius:15px;
+  transition:0.3s;
+}
+.form-submit {
+  border:2px solid rgb(121, 97, 255);
+  color:rgb(121, 97, 255);
+}
+.form-reset {
+  border:2px solid black;
+  color:black;
+}
+.form-submit:hover {
+  border:2px solid white;
+  background-color:rgb(121, 97, 255);
+  color:white;
+}
+.form-reset:hover {
+  border:2px solid white;
+  background-color:black;
+  color:white;
+}
