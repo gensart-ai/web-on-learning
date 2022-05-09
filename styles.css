@@ -4,15 +4,15 @@
 }
 @font-face{
   font-family:JakItalic;
-  src:url("fonts/jaksansitalic.otf");
+  src:url("fonts/jakartasans/jaksansitalic.otf");
 }
 @font-face{
   font-family:JakBook;
-  src:url("fonts/jaksansbook.otf");
+  src:url("fonts/jakartasans/jaksansbook.otf");
 }
 @font-face{
   font-family:JakBold;
-  src:url("fonts/jaksansbold.off");
+  src:url("fonts/jakartasans/jaksansbold.otf");
 }
 body {
   background-color:whitesmoke;
@@ -151,7 +151,7 @@ header {
 .first-fourth-section {
   margin-top:25px;
 }
-h2 {
+h2, p.quotes-maker {
   font-family:JakItalic;
 }
 .wts-header {
