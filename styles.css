@@ -106,7 +106,7 @@ a {
   width:20%;
   float:left;
 }
-header::after, .first-section::after, .second-section::after, .first-fourth-section::after, .second-fourth-section::after, .third-fourth-section::after {
+header::after, .first-section::after, .second-section::after, .first-fourth-section::after, .second-fourth-section::after, .third-fourth-section::after, .fifth-section::after {
   content:"";
   display:table;
   clear:both;
@@ -228,4 +228,22 @@ h2, p.quotes-maker {
   border:2px solid white;
   background-color:black;
   color:white;
+}
+footer {
+  background-color:#46467a;
+  padding-left:auto;
+  padding-right:auto;
+  color:white;
+  margin-top:3%;
+}
+.footer {
+  font-family:JakBold;
+  font-size:200%;
+  text-align:center;
+  padding-top:5px;
+}
+.child-footer {
+  font-family:JakItalic;
+  text-align:center;
+  padding-bottom:5px;
 }
