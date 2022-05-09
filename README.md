@@ -7,4 +7,5 @@
 1.  HTML
 2.  CSS
 3.  GitHub
-4.  PHP
+4.  Git
+5.  PHP
