@@ -11,3 +11,7 @@
 4.  Git
 5.  PHP
 6.  Framework PHP : CodeIgniter 4
+7.  Framework CSS : Bootstrap 5.2
+8.  Framework HTML : AdminLTE 3
+9.  JQuery
+10.  AJAX
