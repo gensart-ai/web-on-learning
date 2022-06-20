@@ -15,3 +15,5 @@
 8.  Framework HTML : AdminLTE 3
 9.  JQuery
 10.  AJAX
+11.  PHP Library : Myth Auth
+12.  MySQL
